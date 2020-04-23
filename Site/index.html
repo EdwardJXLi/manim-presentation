@@ -1,0 +1,41 @@
+<html>
+
+    <head>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        
+        <div id="videoPanel" style="display: none;">
+            <video id="videoPlayer" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" >
+                <source src="">
+                    Your browser does not support HTML5 video.
+            </video>
+        </div>
+
+        <div id="loadPanel">
+            <h1>Manim Presentation (WIP)</h1>
+            <p>Please Choose Video File:</p>
+            <input type="file" id="video" accept="video/*">
+            <BR>
+            <p>Please Choose Timecode File:</p>
+            <input type="file" id="timecode" accept="text/plain">
+            <BR>
+            <BR>
+            <BR>
+            <BR>
+            <BR>
+            <button id="present" onclick="initPres()">Start Presenting</button>
+            <BR>
+            <BR>
+            <BR>
+            <BR>
+            <p>Instructions: Use arrow keys or click anywhere on the screen to change slides.</p>
+            <p>TIP: Use the provided demo files to try it out!</p>
+            <BR>
+            <BR>
+            <BR>
+            <BR>
+        </div>
+        
+    </body>
+</html>
